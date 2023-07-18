@@ -1,0 +1,17 @@
+{
+  "target": "1.20.*",
+  "commands": {
+    "ban-ip": {
+      "arguments": {
+        "target": {
+          "type": "single_player",
+          "required": true
+        },
+        "reason": {
+          "type": "greedy_string",
+          "required": false
+        }
+      }
+    }
+  }
+}
